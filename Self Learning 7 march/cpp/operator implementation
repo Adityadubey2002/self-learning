@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main(){
+int a = 10;
+int b = 5;
+int result;
+// Unary Operator
+cout <<"Unary Operator"<<endl;
+a++;
+cout<<"After increment a = "<<a<<endl;
+// Logical Operator
+cout<<"Logical Operator"<<endl;
+if(a > 5 && b < 10){
+cout << "Condition is True" << endl;
+}
+// Ternary Operator
+cout << "Ternary Operator" << endl;
+result = (a > b) ? a : b;
+cout << "Greater number is " << result << endl;
+// Assignment Operator
+cout << "Assignment Operator" << endl;
+int x = 10;
+x += 5;
+cout << "Value of x = " << x << endl;
+return 0;
+}
